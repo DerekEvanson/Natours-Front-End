@@ -18,4 +18,17 @@ html {
 	@include respond(big-desktop) {
 		font-size: 75%; // 1rem = 12px, 12/16
 	}
+
+	@include respond(tab-port) {
+		font-size: 50%; // 1rem = 8px, 8/16 = 50%
+	}
+}
+
+body {
+	box-sizing: border-box;
+	padding: 3rem;
+
+	@include respond(tab-port) {
+		padding: 0;
+	}
 }
