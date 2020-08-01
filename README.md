@@ -7,3 +7,4 @@ This project focused on
    + Compiling sass into css
    + Responsive design for mobile, tablet, and desktop users
    + Browser support
+   + Use of Media queries, support conditionals, and variables
